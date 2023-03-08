@@ -1,6 +1,9 @@
 /* Operadores  
 operadores Aritmeticos
 
+on los operadores que utilizamos para realizar operaciones matemáticas
+ básicas. Los más sencillos son los cuatro primeros, que forman parte 
+ de las operaciones matemáticas básicas habituales
 */
 
 alert("Operadores De comparacion (==, !=,===,!==,<,>,>=,<=)")
@@ -11,4 +14,5 @@ let num2 = Number(prompt("ingrese otro numero para comparar"))
 alert(`¿los dos numeros son iguales (==)? \n\t\t ${num1 == num2} \n¿los numeros son diferentes (!=)? \n\t\t ${num1 != num2}\n
     ¿Los numeros son iguales y son del mismo tipo de dato (===)? \n\t\t  ${num1 === num2} \n¿las variables son del mismo tipo pero no son iguales? \n\t\t ${num1 !== num2}\n
     ¿El numero ${num1} es menor que ${num2} (<)?\n\t\t ${num1<num2}\n¿El numero ${num1} es mayor que ${num2} (>)?\n\t\t ${num1>num2}\n
-    ¿El numero ${num1} es mayor o igual que ${num2} (>=)?\n\t\t ${num1 >= num2}\n ¿El numero ${num1} es menor o igual que ${num2} (<=)?\n\t\t ${num1<=num2}`)
+    ¿El numero ${num1} es mayor o igual que ${num2} (>=)?\n\t\t ${num1 >= num2}\n ¿El numero ${num1} es menor o igual que ${num2} (<=)?\n\t\t ${num1<=num2}`);
+
